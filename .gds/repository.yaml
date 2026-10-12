@@ -7,8 +7,8 @@ repository:
   lifecycle: active
 provider:
   type: github
-  installation: installation:github-opennetwork
-  owner: NDDev-OpenNetwork
+  installation: installation:github-nddev-technocracy-sandbox
+  owner: NDDev-Technocracy-Sandbox
   repository_id: 1387199510
   name: rldyour-cleaner
 classification:
