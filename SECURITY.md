@@ -6,7 +6,7 @@ files or project trees. See the README and docs/quality.md for boundaries.
 
 Reports involving a protection bypass, force cleanup, fallback deletion,
 redirected destination, unsafe native command or private report disclosure are
-welcome through [GitHub private vulnerability reporting](https://github.com/NDDev-OpenNetwork/rldyour-cleaner/security/advisories/new).
+welcome through [GitHub private vulnerability reporting](https://github.com/NDDev-Technocracy-Archive/rldyour-cleaner/security/advisories/new).
 Include platform, effective policy (redact private paths), version and a
 synthetic reproduction. Do not send credentials or actual cached user content.
 

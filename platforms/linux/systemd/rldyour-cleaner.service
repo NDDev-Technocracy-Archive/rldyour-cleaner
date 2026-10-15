@@ -1,6 +1,6 @@
 [Unit]
 Description=Native unused-cache GC (artifact inventory only)
-Documentation=https://github.com/NDDev-OpenNetwork/rldyour-cleaner
+Documentation=https://github.com/NDDev-Technocracy-Archive/rldyour-cleaner
 ConditionPathExists=%h/.local/bin/rldyour-cleaner
 
 [Service]
