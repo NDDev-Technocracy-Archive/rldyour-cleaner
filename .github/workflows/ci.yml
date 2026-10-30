@@ -76,14 +76,14 @@ jobs:
       - run: cargo test --locked
       - run: cargo clippy --locked --all-targets -- -D warnings
       - name: Install the oldest audited uv for synthetic contract checks
-        uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
         with:
           version: '0.12.17'
           enable-cache: false
       - name: Real uv 0.12.17 preservation/locking contract
         run: python scripts/check-uv-contract.py --uv uv --cleaner target/debug/rldyour-cleaner
       - name: Install the latest audited uv for synthetic contract checks
-        uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
         with:
           version: '0.12.23'
           enable-cache: false
